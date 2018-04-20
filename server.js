@@ -6,7 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne = {
+var articles = {
+    articleOne:{
     title: 'Article one | Aditi Verma' ,
     heading: ' Article one',
     date: 'April 20,2018',
@@ -14,8 +15,28 @@ var articleOne = {
                 This is my first content of artcile one.
                 
             </p>` 
-    };
+    },
     
+    articleTwo:{
+    title: 'Article one | Aditi Verma' ,
+    heading: ' Article two',
+    date: 'April 21,2018',
+    content: ` <p>
+                This is my first content of artcile one.
+                
+            </p>` 
+    },
+    
+    artcileThree:{
+    title: 'Artcile three | Aditi Verma' ,
+    heading: ' Article one',
+    date: 'April 22,2018',
+    content: ` <p>
+                This is my first content of artcile one.
+                
+            </p>` 
+    }
+};
     
  function createTemplate(data) {
      var title = data.title;
