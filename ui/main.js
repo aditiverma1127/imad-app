@@ -15,7 +15,7 @@ function moveRight(){
 }
 img.onclick = function () {
     //every 100milisec apply moveright function 
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,50);
     //move to right
     img.style.marginleft = '100px';
 };
