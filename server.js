@@ -26,7 +26,7 @@ var articles = {
             </p>` 
     },
     
-   ' article-three':{
+   'article-three':{
     title: 'Article three | Aditi Verma' ,
     heading: ' Article one',
     date: 'April 22,2018',
@@ -54,7 +54,7 @@ var articles = {
     </head>    
     <body>
         <div class ="container">
-            div>
+            <div>
         
                 <a href = "/"> Home </a>
             </div>
