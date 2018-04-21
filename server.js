@@ -31,7 +31,7 @@ var articles = {
     heading: ' Article one',
     date: 'April 22,2018',
     content: ` <p>
-                This is my first content of articlle third.
+                This is my first content of article third.
                 
             </p>` 
     }
