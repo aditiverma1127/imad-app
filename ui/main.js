@@ -2,6 +2,7 @@
 var button = document.getElementById('counter');
 button.onclick = function() {
     //make req to counter end point
+    var request = new XMLHttpRequest();
     //capture response and kept in variable
     //render the var in correct span
     counter = counter + 1;
