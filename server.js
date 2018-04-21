@@ -21,7 +21,7 @@ var articles = {
     heading: ' Article two',
     date: 'April 21,2018',
     content: ` <p>
-                This is my first content of article sencond.
+                This is my first content of article second.
                 
             </p>` 
     },
@@ -31,7 +31,7 @@ var articles = {
     heading: ' Article one',
     date: 'April 22,2018',
     content: ` <p>
-                This is my first content of articlle three.
+                This is my first content of articlle third.
                 
             </p>` 
     }
