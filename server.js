@@ -13,8 +13,7 @@ var articles = {
     date: 'April 20,2018',
     content: ` <p>
                 This is my first content of artcile one.
-                
-            </p>` 
+                </p>` 
     },
     
     'article-two':{
@@ -86,7 +85,7 @@ app.get('/', function (req, res) {
 
 app.get('/:articleName',function(req,res) {
     var articleName = req.params.articleName;
-    res.send(articles[articleName]);
+    res.send(createTemplate(articles[articleName]));
 });
 
 
