@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html>
+   <!-- Off Canvas Navigation
+    ================================================== -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+        <!--- Off Canvas Side Menu -->
+        <div class="close" data-toggle="offcanvas" data-target=".navmenu">
+            <span class="fa fa-close"></span>
+        </div>
+        <div class="add-margin"></div>
+
+        <ul class="nav navmenu-nav">
+            <!--- Menu -->
+            <li><a href="#home" class="page-scroll">Home</a></li>
+            <li><a href="#about-me" class="page-scroll">Meet me</a></li>
+            <li><a href="#projects" class="page-scroll">Projects</a></li>
+            <li><a href="#contact" class="page-scroll">Contact me</a></li>
+        </ul>
+        <!--- End Menu -->
+    </div>
+    <!--- End Off Canvas Side Menu -->
+
+    <!-- Home Section -->
+    <div id="home">
+        <div class="container text-center">
+            <!-- Navigation -->
+            <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+            </nav>
+
+            <div class="content">
+                <h4>Welcome to the land of Aditi</h4>
+                <hr>
+                <div class="header-text btn">
+                    <h1><span id="head-title"></span></h1>
+                </div>
+            </div>
+
+
+            <br><br>
+            <div class="text-center">
+                <a href="sim.pdf" class="btn send-btn"><i class="fa fa-hand-o-right" aria-hidden="true"></i>  Resume</a>
+            </div>
+            <br>
+
+            <a href="#about-me" class="down-btn page-scroll">
+                <span class="fa fa-angle-down"></span>
+            </a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <!-- Meet Me Section -->
+    <div id="about-me">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="https://media.licdn.com/dms/image/C5603AQGUfW1T5Av9rw/profile-displayphoto-shrink_200_200/0?e=1530748800&v=beta&t=4X6MQB6VeJQ-BGCQqSx8B4UzcbY6ORAUEyvmQzKXO_E" class="img-circle" alt="mesa" width="300" height="300">
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-6">
+                            <p>A stupid human creature trying to learn new each day.I am a tech lover currently pursuing B.Tech CSE from AKTU University,Greater Noida. I love to spend my time reading autobiography. <br>Girls Talk......Nah. Tech Talk yeah.<br> I love playing chess as there is absolutely no luck involved whatsoever. Both sides are equal at the beginning of the game, and if you lose, you have nobody to blame but yourself.. Life is a great game. Let's Play.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="section-title">
+
+        <hr>
+    </div>
+
+
+    <div id="overview-part">
+        <div class="overlay">
+
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title">
+                        <h2>Projects</h2>
+                        <hr>
+                    </div>
+                    <p>A great way to demonstrate some of your skills, and a way to help others around. Literally a step towards a change.</p>
+                </div>
+            </div>
+
+        
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <span class="fa fa-truck fa-3x"></span>
+                        <h4>Web Development</h4>
+                        <p>Web Development drives me crazy.It hits me like some real good motivation and fun. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        <span class="fa fa-tablet fa-3x"></span>
+                        <h4>App Development</h4>
+                        <p>Developing some great apps and some new ideas to help the world is all i want.</p>
+                    </div>
+                </div>
+            
+          
+      
+    <br>
+
+    <!-- Call-to-Action Section -->
+    <div id="cta">
+        <div class="container text-center">
+            <a href="https://github.com/aditiverma1127" class="btn go-to-btn">Check my projects on github <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+
+    
+     
+
+
+
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contact Me</h2>
+                <hr>
+            </div>
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <address>
+                        <strong>Address</strong><br>
+                        <br>
+                        http://aditivermavccse15.imad.hasura-app.io/<br>
+                        India<br>
+                        
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/aditiverma1127"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="https://www.instagram.com/aditiverma2711/"><span class="fa fa-instagram"></span></a></li>
+                           
+                          </ul>
+                    </address>
+                </div>
+
+                <div class="col-md-9">
+                    <form autocomplete="off" action="mail.php" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+                                <input type="text" class="form-control" placeholder="Phone No." name="phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required>
+                                <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+                            </div>
+                        </div>
+                        <textarea class="form-control" rows="4" placeholder="Message" name="message"></textarea>
+                        <div class="text-right">
+                            <button type="submit" value="Send" class="btn send-btn" style="background-color:#c59a6d">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left">
+                <p>Designed By <a href="http://aditivermavccse15.imad.hasura-app.io/">Aditi Verma</a></p>
+            </div>
+            <div class="pull-right">
+                <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
+            </div>
+        </div>
+    </nav>
+
+<script>
+  
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
+    
